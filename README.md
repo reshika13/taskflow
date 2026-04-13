@@ -1,31 +1,46 @@
 # TaskFlow
 
-TaskFlow is a minimal and responsive task management web application built with Next.js and Tailwind CSS. It focuses on simplicity, clean UI, and productivity-driven design.
+TaskFlow is a minimal, productivity-focused task management web app built with **Next.js, TypeScript, and Tailwind CSS**.  
+It is designed to demonstrate clean UI design, state management, and real-world frontend development practices.
 
 ---
 
-## 🚀 Features
+## Features
 
-- Add tasks
-- Mark tasks as complete
-- Delete tasks
-- Clean and minimal interface
-- Responsive design
+-  Add new tasks instantly
+-  Mark tasks as completed
+-  Edit existing tasks (inline editing)
+-  Delete tasks
+-  Filter tasks (All / Active / Completed)
+-  Persistent storage using localStorage
+-  Live task counters (active, completed, total)
+-  Clean, minimal, modern UI
 
 ---
 
-## 🛠️ Tech Stack
+## Purpose of the Project
 
-- Next.js
+TaskFlow was built to practice:
+- Modern React state management
+- Component-based UI design
+- UX-focused task workflows
+- Persistent browser storage
+- Real-world frontend architecture
+
+---
+
+## Tech Stack
+
+- Next.js (App Router)
 - React
-- Tailwind CSS
 - TypeScript
+- Tailwind CSS
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
-Run the development server:
+Clone the repository:
 
 ```bash
-npm run dev
+git clone https://github.com/reshika13/taskflow.git
