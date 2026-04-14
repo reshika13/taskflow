@@ -46,7 +46,7 @@ const toggleTask = (id: number) => {
   );
 };
 
-  // 🔥 FILTER LOGIC
+  // FILTER LOGIC
 const filteredTasks = tasks
   .filter((task) => {
     if (filter === "active") return !task.done;
@@ -58,7 +58,7 @@ const filteredTasks = tasks
     return Number(a.done) - Number(b.done);
   });
 
-  // 🔥 COUNTER LOGIC
+  // COUNTER LOGIC
   const total = tasks.length;
 const completed = tasks.filter((t) => t.done).length;
 const active = tasks.filter((t) => !t.done).length;
@@ -106,10 +106,10 @@ const saveEdit = (id: number) => {
         </h1>
 
         <p className="text-neutral-400 text-center mb-3">
-          Simple tasks. Clean focus.
+          One step at a time. You can do it!
         </p>
 
-        {/* 🔥 COUNTER */}
+        {/* COUNTER */}
 <p className="text-center text-sm mb-6 text-neutral-400">
   <span className="text-white">{total} tasks</span>
   {" • "}
@@ -162,7 +162,7 @@ const saveEdit = (id: number) => {
         <div className="space-y-3">
           {filteredTasks.length === 0 && (
             <p className="text-center text-neutral-500">
-              No tasks in this view.
+              No tasks yet.
             </p>
           )}
 
